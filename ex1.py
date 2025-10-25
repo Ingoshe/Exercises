@@ -3,6 +3,7 @@
 
 name = input("Enter your name: ")
 birth_year = int(input("Birth year: "))
-age = int(2025 - birth_year)
+current_year = 2025
+age = int(current_year - birth_year)
 
 print(f"Servus {name}, {age}.")
